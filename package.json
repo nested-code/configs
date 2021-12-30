@@ -1,0 +1,10 @@
+{
+  "name": "@nested-code/configs",
+  "version": "0.0.1",
+  "description": "Centralised config of dev tooling for Nested Code packages.",
+  "main": "index.js",
+  "repository": "https://github.com/nested-code/configs",
+  "author": "Tim Kinnane <tim@nestedcode.com>",
+  "license": "MIT",
+  "private": "false"
+}
