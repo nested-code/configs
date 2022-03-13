@@ -1,7 +1,7 @@
-import * as config from './config'
+import * as cfg from './config'
 
 export const jest = {
-  ...config
+  ...cfg
 }
 
 export default jest

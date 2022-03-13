@@ -7,3 +7,6 @@ export const readPackage = (path: string) =>
 
 export const requirePackage = (path: string) =>
   createRequire(import.meta.url)(resolve(path, 'package.json'))
+
+export const readDependencies = (path: string) =>
+  Object.keys(readPackage(path).dependencies)

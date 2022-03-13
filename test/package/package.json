@@ -1,0 +1,13 @@
+{
+  "name": "@test/package",
+  "version": "0.0.1",
+  "description": "A package for tests.",
+  "repository": "https://github.com/nested-code/cogs",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "jest --collectCoverage"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

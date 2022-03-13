@@ -2,18 +2,20 @@
   "compilerOptions": {
     "baseUrl": "src",
     "module": "esnext",
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "lib": ["esnext"],
     "paths": {
       "*": ["./src/*"]
     },
+    "esModuleInterop": true,
     "allowJs": true,
     "checkJs": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "declaration": true
   },
   "exclude": [
     "**/*.test.ts",
