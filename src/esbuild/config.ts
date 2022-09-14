@@ -10,7 +10,8 @@ export const defaults: Partial<BuildOptions> = {
   target: 'node14',
   outdir: 'dist',
   bundle: true,
-  metafile: true
+  metafile: true,
+  outExtension: { '.js': '.mjs' }
 }
 
 /** Generate ESbuild config, finding dependencies from package. */

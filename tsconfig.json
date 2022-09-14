@@ -14,15 +14,6 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "skipLibCheck": true,
-    "strict": true,
-    "declaration": true
-  },
-  "exclude": [
-    "**/*.test.ts",
-    "**/mocks",
-    "**/coverage"
-  ],
-  "include": [
-    "**/*.ts"
-  ]
+    "strict": true
+  }
 }

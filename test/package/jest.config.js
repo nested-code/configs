@@ -1,3 +1,3 @@
-import { configure } from '@nested-code/cogs/jest/index.js'
+import jest from '@nested-code/cogs/jest'
 
-export default configure()
+export default jest.configure()

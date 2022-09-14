@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": ["!./src"],
+  "include": ["./src/jest"],
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "dist",
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "outFile": "./dist/jest/index.js",
+  }
+}

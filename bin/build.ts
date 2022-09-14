@@ -12,11 +12,8 @@ const config = esbuild.config({
     'src/esbuild/index.ts',
     'src/jest/index.ts',
     'src/utils/index.ts'
-  ],
-  
+  ]
 })
 
-utils.clearPath(config.outdir)
-esbuild.build(config).then(() => {
-  utils.typegen(config.entryPoints)
-})
+utils.clearPath(config.outdir!)
+esbuild.build(config)
