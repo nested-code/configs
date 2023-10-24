@@ -13,7 +13,7 @@
     "build": "node --no-warnings --experimental-specifier-resolution node --loader ts-node/esm bin/build.ts"
   },
   "dependencies": {
-    "@types/node": "16",
+    "@types/node": "20",
     "esbuild": "^0.14.10",
     "esbuild-runner": "^2.2.1",
     "jest": "^27.4.5",
